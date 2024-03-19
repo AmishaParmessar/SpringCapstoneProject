@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  color: blue;
+  background-color: peachpuff;
+}
+
+h1 {
+  color: #ac6120;
+}
+p {
+  color: #80007b;
+}
+h2 {
+  color: #0e7150;
+}
+a:hover {
+  background-color: #d8a06f;
+}
+h3{
+  color: #8d1111;
+}
+.collapsible {
+  background-color: #f2bae3;
+  color: #131111;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible:hover {
+  background-color: #bf69ac;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: Ivory;
+}
